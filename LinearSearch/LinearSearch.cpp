@@ -38,5 +38,17 @@ void LinearSearch()
 		// Accept the number to be searched
 		cout << "\nEnter the element you want to search : ";				//Langkah 1
 		int item;
+		cin >> item;
+
+		comparison = 0;
+		for (i = 0; i < n; i++)
+		{
+			comparison++;
+				if (arr[i] == item)
+				{
+					cout << "\n" << item << " found at position" << (i + 1) << endl;
+					break;
+				}
+		}
 	}
 }
