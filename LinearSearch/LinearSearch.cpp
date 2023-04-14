@@ -31,12 +31,12 @@ void input()
 void LinearSearch()
 {
 	char ch;
-	int comparison;
+	int comparison;							// Number comparisons
 
 	do
 	{
 		// Accept the number to be searched
-		cout << "\nEnter the element you want to search : ";
+		cout << "\nEnter the element you want to search : ";				//Langkah 1
 		int item;
 	}
 }
