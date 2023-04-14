@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 
-int arr[20];
-int n;
-int i;
+int arr[20];				// Array to be searched
+int n;						// Number of elements in the array
+int i;						// index of array element
 
 void input()
 {
@@ -16,6 +16,8 @@ void input()
 		else
 			cout << "\nArray should have minimum 1 and maximum 20 element.\n\n";
 	}
-
-
+	// Accept array elements
+	cout << "\n---------------------\n";
+	cout << " Enter Array elements \n";
+	
 }
